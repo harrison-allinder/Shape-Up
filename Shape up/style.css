@@ -1,0 +1,56 @@
+#shape-canvas {
+    background-color: lavender;
+    position: relative; 
+    height: 600px;
+    width: 600px;
+     
+  }
+  
+  .square {
+     position: absolute;
+      background-color: whitesmoke;
+      border: 2px solid rebeccapurple;
+    }
+  
+  .rect {
+     position: absolute;
+      border: 3px solid indianred;
+      background-color: paleturquoise;
+  }
+  
+  .circ {
+     position: absolute;
+      background: peachpuff;
+      border: 3px solid aquamarine;
+      border-radius: 50%
+    }
+  
+    .triangle {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid salmon;
+      border-right: 100px solid transparent;
+    }
+  
+  
+    
+  
+  
+   
+  
+  
+  
+  body {
+      background-color: whitesmoke;
+  }
+  
+  #stats {
+      background-color: darkgray;
+      padding-top:15px;
+      padding-bottom: 15px;
+  }
+  
+  #shape-name{
+      text-transform: capitalize;
+  }
